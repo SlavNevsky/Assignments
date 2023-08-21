@@ -1,0 +1,11 @@
+age,gender,marital_status,nqf_level,loan_amount,payback_term
+28,f,married,7,90000,
+28,m,married,7,90000,
+40,m,single,8,1000000,
+40,m,divorced,8,1000000,
+50,f,single,7,120000,
+50,f,single,7,800000,
+50,f,married,5,800000,
+28,f,single,7,90000,
+65,f,single,7,90000,
+25,m,single,5,380000,

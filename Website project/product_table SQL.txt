@@ -1,0 +1,1 @@
+CREATE TABLE `id20823144_rooibok_db`.`product_table` ( `product_id` INT(200) NOT NULL AUTO_INCREMENT , `image` VARCHAR(500) NOT NULL , `price` DOUBLE(50) NOT NULL , `description` VARCHAR(10000) NOT NULL , `quantity` INT(10000) NOT NULL , `size` VARCHAR(5) NOT NULL , PRIMARY KEY (`product_id`(200))) ENGINE = InnoDB;

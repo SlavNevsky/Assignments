@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aficionados Clothing</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" >
+        <link rel="stylesheet" href="cart.css">
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="login.html">Log In/ Sign-Up</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li id="lg-bag"><a class="active" href="cart2.html"><i class="fal fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+            <a href="cart2.html"><i class="fa-regular fal fa-shopping-cart"></i></a>
+        </div>
+
+        <!-- Making cart -->
+        <span class="cart_lan"><i class="fal fa-shopping-cart" id="cart_icon">Cart</i></span>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <!-- Content -->
+            <div class="cart-content">
+                <img src="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-product-title">Product1</div>
+                    <div class="cart-price">300</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <!-- Remove Item from cart -->
+                <i class="fa-solid fa-trash cart-remove"></i>
+
+            </div>
+            <!-- Total -->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price"></div>
+
+            <!-- Buy Button -->
+            <button type="button" class="btn-buy">Checkout</button>
+            <i class="fa-solid fa-rectangle-xmark" id="close-cart"></i>
+
+
+            </div>
+        </div>
